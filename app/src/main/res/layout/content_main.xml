@@ -8,4 +8,13 @@
     tools:context=".MainActivity"
     tools:showIn="@layout/activity_main">
 
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/app_name"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="208dp" />
 </android.support.constraint.ConstraintLayout>
